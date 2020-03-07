@@ -2,8 +2,8 @@ struct universe {
 /*Put some appropriate things here*/
 	int cells_alive;
 	int generations;
-	double percent_alive;
-	double running_average;
+	float percent_alive;
+	float running_average;
 	int rows;
 	int columns;
 	char *grid;
